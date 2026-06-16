@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renan Souza | Portfólio</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Importar arquivo CSS -->
+
+</head>
+
+<body>
+
+    <header>
+
+        <div>
+            <h1> Renan de Souza Dias</h1>
+            <p> Estudante de Análise e Desenvolvimento de Sistemas </p>
+        </div>
+
+        <nav>
+
+            <button id="botao-tema"> <!-- Botão alterar tema -->
+                ☀️/🌙 Tema
+                <!-- Menu -->
+            </button>
+            <a href="index.html">Sobre Mim</a>
+            <a href="formacao.html">Formação</a>
+            <a href="portfolio.html">Portfólio</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+
+            <h2>Contato</h2>
+
+            <form id="form-contato"> <!-- Identificação de formulário -->
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome"> <!-- Campo de entrada do nome -->
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email"> <!-- Campo de entrada do email -->
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" rows="2"></textarea> <!-- Campo de entrada da mensagem -->
+
+                <!--caixa de mensagens-->
+                <div id="mensagem-status"></div>
+
+                <button type="submit"> <!-- Botão de envio -->
+                    Enviar
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+    <script src="js/script.js"></script> <!-- Importar arquivo javascripit -->
+</body>
+
+</html>
